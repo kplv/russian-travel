@@ -1,0 +1,30 @@
+.cover {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: calc(100% - (48px + 48px));
+  min-height: 740px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cover {
+    min-height: 200px;
+  }
+}
