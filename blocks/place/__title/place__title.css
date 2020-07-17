@@ -19,5 +19,7 @@
   .place__title {
     padding-bottom: 32px;
     font-size: 32px;
+    max-width: calc(100% - (16px + 16px));
+    margin: auto;
   }
 }

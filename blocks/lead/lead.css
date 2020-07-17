@@ -2,6 +2,7 @@
   max-width: calc(100% - (148px + 148px));
   margin: auto;
   margin-bottom: 92px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
