@@ -22,6 +22,5 @@
   .header {
     width: calc(100% - (16px + 16px));
     margin: 16px auto 48px auto;
-    min-height: 48px;
   }
 }
